@@ -30,7 +30,7 @@ public class ContactPage extends TestBase{
 	WebElement email;
 	@FindBy(xpath="//input[@name='address_title']")
 	WebElement addt;
-	@FindBy(xpath="//input[@name='address']")
+	@FindBy(xpath="//textarea[@name='address']")
 	WebElement add;
 	@FindBy(xpath="//input[@name='city']")
 	WebElement city;
