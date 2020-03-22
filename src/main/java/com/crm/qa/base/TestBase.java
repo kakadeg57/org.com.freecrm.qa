@@ -20,7 +20,7 @@ public class TestBase {
 	public  void setUp() {
 		try {
 			prop =new Properties();
-			FileInputStream file=new FileInputStream("C:\\Users\\user\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream file=new FileInputStream("C:\\Users\\user\\eclipse-workspace\\GKFreeCRMTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(file);
 			}
 			catch( FileNotFoundException  e)
